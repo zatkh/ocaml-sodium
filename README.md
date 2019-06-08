@@ -37,6 +37,13 @@ should ensure that nonces used for cryptographic operations are
 
 Internal consistency tests may be found in `lib_test`.
 
+## Enclave Tests
+(limited for now: under development)
+
+make test_enclave
+
+part of [enclave-bindings](https://github.com/zatkh/enclave-bindings) repo.
+
 ### Salt
 
 *Salt is very important for the camel. It needs eight times as much salt
