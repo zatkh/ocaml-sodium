@@ -1,0 +1,1 @@
+/usr/local/lib -a /etc/ld.so.conf.d/libsodium.conf

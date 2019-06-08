@@ -3,3 +3,5 @@ _build/
 *.byte
 setup.log
 setup.data
+main
+enclave.s*
