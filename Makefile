@@ -50,6 +50,7 @@ _build/%: %.c
 
 
 enclave_nacl_runner:
-	$(MAKE) -C ../lib-enclave
+	$(MAKE) -C ../lib-enclave clean
+	$(MAKE) -C ../lib-enclave ENCLAVE_TEST=1 SGX_MODE=SIM
 	rm -rf enclave.s*
 	cp -r ../lib-enclave/enclave* .
